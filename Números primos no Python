@@ -1,0 +1,23 @@
+"""
+Exceção de dois números para o cálculo:
+Todo número ímpar com exceção do 2 (que é par) é um numero primo, e também o 1 que é ímpar mas não é primo.
+para o cálculo, cada número divisivel por 2 com resto 0 não é primo.
+"""
+numero = int(input('Digite um número: '))
+div1 = (numero % 2)
+print(div1)
+
+if numero == 1:  
+    div1 == 0
+    print(f'Este não é um número primo')
+else:           
+    if div1 >= 1:
+        print(f'Este é um número primo')
+
+if numero == 2:  
+    div1 == 1
+    print(f'Este é um número primo')
+else:           
+    if div1 == 0:
+        print(f'Este não é um número primo')
+        
