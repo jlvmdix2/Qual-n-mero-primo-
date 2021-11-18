@@ -9,15 +9,15 @@ print(div1)
 
 if numero == 1:  
     div1 == 0
-    print(f'Este não é um número primo')
+    print('Este não é um número primo')
 else:           
     if div1 >= 1:
-        print(f'Este é um número primo')
+        print('Este é um número primo')
 
 if numero == 2:  
     div1 == 1
-    print(f'Este é um número primo')
+    print('Este é um número primo')
 else:           
     if div1 == 0:
-        print(f'Este não é um número primo')
+        print('Este não é um número primo')
         
