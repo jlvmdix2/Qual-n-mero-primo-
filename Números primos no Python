@@ -4,7 +4,7 @@ Todo número ímpar com exceção do 2 (que é par) é um numero primo, e també
 para o cálculo, cada número divisivel por 2 com resto 0 não é primo.
 """
 numero = int(input('Digite um número: '))
-div1 = (numero % 2)
+div1 = numero % 2
 print(div1)
 
 if numero == 1:  
